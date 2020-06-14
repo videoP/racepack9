@@ -1,0 +1,54 @@
+
+super_mario
+	textures/system/weapclip
+
+dwfc2019
+	WARNING: Activate shader failed for textures/base_light/baslt4_1_4k
+	WARNING: Activate shader failed for textures/gothic_light/goth_lt2_lrg2k
+	WARNING: Activate shader failed for textures/gothic_light/ironcrossltred_2000
+	WARNING: Activate shader failed for textures/gothic_light/ironcrosslt2_5000
+	WARNING: Activate shader failed for textures/gothic_light/gothic_light2_1k
+	WARNING: Activate shader failed for textures/liquids/lavahellflat_400
+
+
+Waggle
+	WARNING: Activate shader failed for textures/skies/pj_dm9sky
+	WARNING: Activate shader failed for textures/liquids/protolava
+
+
+WARNING: Activate shader failed for textures/slide7hd/grave01_1
+WARNING: Activate shader failed for textures/slide7hd/metal2_5
+WARNING: Activate shader failed for textures/slide7hd/meth_clouds_green_lessbright
+WARNING: Activate shader failed for textures/slide7hd/metal5_1
+WARNING: Activate shader failed for textures/slide7hd/wood1_1
+WARNING: Activate shader failed for textures/slide7hd/metal5_8
+WARNING: Activate shader failed for textures/slide7hd/rock3_7
+WARNING: Activate shader failed for textures/slide7hd/tlight01
+WARNING: Activate shader failed for textures/slide7hd/wgrass1_1
+WARNING: Activate shader failed for textures/slide7hd/woodflr1_4
+WARNING: Activate shader failed for textures/eksha_q1/portal
+WARNING: Activate shader failed for textures/slide7hd/uwall1_2
+WARNING: Activate shader failed for textures/slide7hd/wgrnd1_6
+WARNING: Activate shader failed for textures/slide7hd/door03_3
+WARNING: Activate shader failed for textures/slide7hd/window1_2_light
+WARNING: Activate shader failed for textures/slide7hd/window1_3_light
+WARNING: Activate shader failed for textures/slide7hd/ground1_8
+WARNING: Activate shader failed for textures/slide7hd/metal5_4
+WARNING: Activate shader failed for textures/slide7hd/window02_1_light
+WARNING: Activate shader failed for textures/slide7hd/window01_4_light
+WARNING: Activate shader failed for textures/slide7hd/window01_3_light
+WARNING: Activate shader failed for textures/slide7hd/window01_2_light
+WARNING: Activate shader failed for textures/slide7hd/window01_light
+WARNING: Activate shader failed for textures/slide7hd/uh_bad
+WARNING: Activate shader failed for textures/slide7hd/wgrnd1_5
+WARNING: Activate shader failed for textures/slide7hd/rock3_2
+WARNING: Activate shader failed for textures/slide7hd/wall14_5
+WARNING: Activate shader failed for textures/slide7hd/wstone1_2
+WARNING: Activate shader failed for textures/slide7hd/metal3_2
+WARNING: Activate shader failed for textures/slide7hd/wmet3_4
+WARNING: Activate shader failed for textures/slide7hd/wizwin1_8
+WARNING: Activate shader failed for textures/slide7hd/wmet1_1
+WARNING: Activate shader failed for textures/slide7hd/tlight01_bright
+WARNING: Activate shader failed for textures/eksha_q1/water1_nodeform
+WARNING: Activate shader failed for textures/ctf/blue_telep
+WARNING: Activate shader failed for textures/eksha_q1/flame1
