@@ -1,0 +1,7 @@
+Item cleanup in main spawn area / weapon spawns
+Lighting most maps
+Door textures
+levelshot
+trigger messages/sounds/jump levels finalize
+fainlize mario spacing (func statics now)
+music track

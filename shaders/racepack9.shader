@@ -76,23 +76,6 @@ textures/racepack9/pisek
 	}
 }
 
-textures/racepack9/vodopad
-{
-	qer_editorimage textures/racepack9/vodopad_obr.tga
-	surfaceparm nonsolid
-	//q3map_surfacelight 75
-
-	cull disable
-	deformVertexes wave 100 sin 5 5 0 1.5 
-	{
-		map textures/racepack9/vodopad.tga
-		blendfunc blend
-		rgbGen identity
-		tcMod scroll 0 -1.5
-		
-	}
-}
-
 textures/racepack9/leknin
 {
 	qer_editorimage textures/racepack9/leknin.tga
@@ -1491,4 +1474,276 @@ textures/racepack9/u_thinline1_blue
 		blendfunc gl_dst_color gl_one
 		rgbGen wave sawtooth 0.7 0.1 0 7 
 	}
+}
+
+textures/racepack9/mountain_fog
+{
+	qer_editorimage	textures/fogs/fog.tga
+	surfaceparm	nonsolid
+	surfaceparm	nonopaque
+	surfaceparm	fog
+	surfaceparm	trans
+	surfaceparm nolightmap
+	q3map_nolightmap
+	fogparms	( 0.2627 0.3803 0.6156 ) 12000.0
+}
+textures/racepack9/SKY_mountain
+{
+	qer_editorimage textures/skies/sky.tga
+	surfaceparm sky
+	surfaceparm noimpact
+	surfaceparm nolightmap
+	surfaceparm nomarks
+	q3map_nolightmap
+    {
+	map textures/racepack9/mountain_sky
+	rgbGen identityLighting
+    }
+}
+
+textures/racepack9/whitechess
+{
+	q3map_forcemeta
+	q3map_shadeangle 60
+	qer_editorimage textures/racepack9/whitechess
+	{
+		map textures/racepack9/envmap
+		rgbGen identity
+		tcGen environment
+	}
+	{	
+		map textures/racepack9/whitechess
+		blendFunc blend
+		rgbGen identity
+	}
+	{
+		map $lightmap
+		blendFunc GL_DST_COLOR GL_ZERO
+	}
+}
+
+textures/racepack9/poletext
+{
+	qer_editorimage	textures/racepack9/cmplex_ice
+	q3map_shadeangle 179
+    {
+	map $lightmap
+    }
+    {
+	map textures/racepack9/cmplex_ice
+	blendFunc GL_DST_COLOR GL_ZERO
+	tcMod scroll 0.5 0.5
+    }
+    {
+        map textures/racepack9/floorzagenv
+        blendFunc GL_SRC_ALPHA GL_ONE
+        alphaGen const 0.4
+        tcGen environment
+    }
+}
+
+textures/racepack9/poletext1
+{
+	qer_editorimage	textures/racepack9/cmplex_ice
+	q3map_shadeangle 179
+    {
+	map $lightmap
+    }
+    {
+	map textures/racepack9/cmplex_ice
+	blendFunc GL_DST_COLOR GL_ZERO
+    }
+    {
+        map textures/racepack9/floorzagenv
+        blendFunc GL_SRC_ALPHA GL_ONE
+        alphaGen const 0.4
+        tcGen environment
+    }
+}
+
+textures/racepack9/magicSKY
+{
+	qer_editorimage textures/skies/sky.tga
+	skyparms textures/racepack9/goldrush512 512 -
+	q3map_sunExt 1.00 0.86 0.31 340 -102 70 2 32
+
+	q3map_skyLight 120 6
+	surfaceparm sky
+	surfaceparm noimpact
+	surfaceparm nolightmap
+	surfaceparm nomarks
+	notc
+  
+    {
+        map textures/racepack9/flawlightglw2.tga
+        blendfunc filter
+        rgbGen wave sin 1.0 1.0 0.2 0.0008
+    }
+}
+
+textures/racepack9/rifraf
+{
+	q3map_forcemeta
+	q3map_shadeangle 60
+	qer_editorimage textures/racepack9/rifraf
+	{
+		map textures/racepack9/envmap
+		rgbGen identity
+		tcGen environment
+	}
+	{	
+		map textures/racepack9/rifraf
+		blendFunc blend
+		rgbGen identity
+	}
+	{
+		map $lightmap
+		blendFunc GL_DST_COLOR GL_ZERO
+	}
+}
+
+textures/racepack9/fabrik
+{
+qer_editorimage textures/racepack9/fabrik
+cull twosided
+surfaceparm nonsolid
+   {
+       map $lightmap
+   }
+   {
+       map textures/racepack9/fabrik
+       blendFunc GL_DST_COLOR GL_ZERO
+   }
+}
+
+textures/racepack9/glass
+{
+	qer_editorimage	textures/common/glass2.tga
+	qer_trans	0.5
+	surfaceparm	nonopaque
+	surfaceparm	trans
+	q3map_nolightmap
+    {
+        map textures/common/glass2
+        blendFunc GL_ZERO GL_ONE_MINUS_SRC_COLOR
+    }
+    {
+        map textures/common/glass2
+        blendFunc GL_ONE GL_ONE
+        tcGen environment
+    }
+}
+
+textures/racepack9/s_rock6
+{
+    {
+        map $lightmap
+    }
+    {
+        map textures/racepack9/s_rock6
+        blendFunc GL_DST_COLOR GL_ZERO
+    }
+    {
+        map textures/racepack9/s_rock6_glow
+        blendFunc GL_ONE GL_ONE
+        rgbGen wave sin 0.3 0.6 0.2 0.6
+    }
+}
+
+models/cpc_props/pine_tree2
+{
+	surfaceparm nolightmap
+	q3map_novertexshadows
+	{
+		map models/cpc_props/pine_tree2
+		rgbGen vertex
+	}
+}
+models/cpc_props/icepine2
+{
+	qer_editorimage	models/cpc_props/icepine2
+	surfaceparm nolightmap
+	q3map_novertexshadows
+	cull twosided
+	   {
+      map models/cpc_props/icepine2
+      blendFunc GL_ONE GL_ZERO
+      alphaFunc GE128
+      depthWrite
+      rgbGen vertex
+	   }
+}
+
+textures/racepack9/pornlavad3
+{
+	qer_editorimage textures/racepack9/lavad3.tga
+	q3map_globaltexture
+	surfaceparm trans	
+	surfaceparm noimpact
+	surfaceparm lava
+	q3map_surfacelight 800
+	cull disable	
+	tesssize 128
+	cull disable
+	deformVertexes wave 100 sin 9 4 .1 0.5	
+        {
+		map textures/racepack9/lavad3.tga
+                tcmod scale 0.6 0.5
+                tcmod scroll 0.2 0.2
+                tcMod turb 0.1 .1 0.01 .01
+                blendFunc GL_ONE GL_ZERO
+                rgbGen identity
+	}
+}
+
+textures/racepack9/marble37
+{
+	qer_editorimage textures/racepack9/marble37.tga
+
+	{
+		map textures/racepack9/marble37.tga
+	        rgbGen identity
+		tcGen environment
+		tcmod scale .75 .75
+	}
+	
+	{
+		map textures/racepack9/marble37.tga
+		blendFunc GL_ONE_MINUS_SRC_ALPHA GL_SRC_ALPHA	
+		rgbGen identity
+	}
+	{
+		map $lightmap
+		blendfunc gl_dst_color gl_zero
+		rgbGen identity
+	}
+}
+
+textures/racepack9/pinkishlight
+
+{      
+	qer_trans 0.5
+	qer_editorimage textures/racepack9/pornlight.tga
+	surfaceparm nolightmap
+	surfaceparm nonsolid
+	surfaceparm trans	
+        surfaceparm alphashadow
+        surfaceparm nomarks
+	q3map_lightimage textures/racepack9/lightnocolor.tga
+	q3map_surfacelight 125
+	cull twosided
+	{
+		map textures/racepack9/pornlight.tga
+		alphaFunc GE128
+		depthWrite
+		rgbGen identity
+                  
+	}
+        {
+		map $lightmap
+		rgbGen identity
+		blendFunc GL_DST_COLOR GL_ZERO
+		depthFunc equal
+	}
+
 }
