@@ -5,3 +5,6 @@ levelshot
 trigger messages/sounds/jump levels finalize
 fainlize mario spacing (func statics now)
 music track
+Fix weird nonsolid at spawn room
+OB cheatproof torture map?
+fix fog in snowboard room
