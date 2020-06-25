@@ -1,10 +1,12 @@
 Item cleanup in main spawn area / weapon spawns
-Lighting most maps
-Door textures
-levelshot
-trigger messages/sounds/jump levels finalize
-fainlize mario spacing (func statics now)
+levelshot/door textures finalize
 music track
 Fix weird nonsolid at spawn room
-OB cheatproof torture map?
 fix fog in snowboard room
+warps
+
+textures/gothic_wall/streetbricks14
+
+Lighting:
+qw-slide7 start is a lil dark still w/e ?
+mario should be nolightmap

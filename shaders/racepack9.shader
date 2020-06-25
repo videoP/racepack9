@@ -508,29 +508,6 @@ textures/racepack9/q3dm0
 	}
 }
 
-textures/racepack9/baslt4_1_4k
-{
-	qer_editorimage textures/racepack9/baslt4_1.tga
-	surfaceparm nomarks
-	q3map_surfacelight 4000
-	//light 1
-
-	// New Fluorescent light
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	{
-		map textures/racepack9/baslt4_1.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-	{
-		map textures/racepack9/baslt4_1.blend.tga
-		blendfunc GL_ONE GL_ONE
-	}
-}
-
 textures/racepack9/goth_lt2_lrg2k
 {
 	qer_editorimage textures/racepack9/gothic_light2_lrg.tga
@@ -717,23 +694,6 @@ textures/racepack9/clear_ripple1_q3dm1
 		}
 }
 
-
-textures/racepack9/blacksky
-{
-	qer_editorimage gfx/colors/black.tga
-	surfaceparm noimpact
-	surfaceparm nolightmap
-	surfaceparm sky
-	//skyparms env/q3sky_red1 - -
-	//skyparms env/kmnight - -
-	//skyparms env/black - -
-	q3map_surfacelight 25
-	q3map_lightsubdivide 512
-	q3map_sun	1 1 1 32	90 90
-	{
-		map	gfx/colors/black.tga
-	}
-}
 
 textures/racepack9/q3dm9fog
 {
@@ -1289,7 +1249,7 @@ textures/racepack9/window1_2_light
 {
                 qer_editorimage textures/racepack9/window1_2.tga
                 surfaceparm nomarks
-                q3map_surfacelight 250
+                q3map_surfacelight 1000
  
                 {
                 map $lightmap
@@ -1311,7 +1271,7 @@ textures/racepack9/window1_3_light
 {
                 qer_editorimage textures/racepack9/window1_3.tga
                 surfaceparm nomarks
-                q3map_surfacelight 250
+                q3map_surfacelight 1000
  
                 {
                 map $lightmap
@@ -1332,7 +1292,7 @@ textures/racepack9/window02_1_light
 {
                 qer_editorimage textures/racepack9/window02_1.tga
                 surfaceparm nomarks
-                q3map_surfacelight 350
+                q3map_surfacelight 1300
 				q3map_nolightmap
  
                 {
@@ -1350,7 +1310,7 @@ textures/racepack9/window01_2_light
 {
                 qer_editorimage textures/racepack9/window01_2.tga
                 surfaceparm nomarks
-                q3map_surfacelight 350
+                q3map_surfacelight 1300
 				q3map_nolightmap
  
                 {
@@ -1369,7 +1329,7 @@ textures/racepack9/window01_3_light
 {
                 qer_editorimage textures/racepack9/window01_3.tga
                 surfaceparm nomarks
-                q3map_surfacelight 350
+                q3map_surfacelight 1300
 				q3map_nolightmap
  
                 {
@@ -1388,7 +1348,7 @@ textures/racepack9/window01_4_light
 {
                 qer_editorimage textures/racepack9/window01_4.tga
                 surfaceparm nomarks
-                q3map_surfacelight 350
+                q3map_surfacelight 1300
 				q3map_nolightmap
  
                 {
@@ -1406,7 +1366,7 @@ textures/racepack9/window01_light
 {
         qer_editorimage textures/racepack9/window01_1.tga
         surfaceparm nomarks
-        q3map_surfacelight 350
+        q3map_surfacelight 1300
 		q3map_nolightmap
  
         {
@@ -1730,7 +1690,7 @@ textures/racepack9/pinkishlight
         surfaceparm alphashadow
         surfaceparm nomarks
 	q3map_lightimage textures/racepack9/lightnocolor.tga
-	q3map_surfacelight 125
+	q3map_surfacelight 250
 	cull twosided
 	{
 		map textures/racepack9/pornlight.tga
@@ -1746,4 +1706,23 @@ textures/racepack9/pinkishlight
 		depthFunc equal
 	}
 
+}
+
+textures/racepack9/light
+{
+	qer_editorimage	textures/colors/white
+	qer_trans	0.7
+	surfaceparm nomarks
+	surfaceparm nonsolid
+	surfaceparm nonopaque
+	surfaceparm trans
+	surfaceparm nolightmap
+	q3map_lightRGB 1 1 1
+	q3map_nolightmap
+	q3map_surfacelight 350
+	{
+	map $whiteimage
+	rgbGen const ( 0.000000 0.000000 0.000000 )
+	blendFunc GL_ONE GL_ONE
+	}
 }
