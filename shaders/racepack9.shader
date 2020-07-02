@@ -1726,3 +1726,139 @@ textures/racepack9/light
 	blendFunc GL_ONE GL_ONE
 	}
 }
+
+textures/racepack9/dangus
+{
+	surfaceparm nolightmap
+	{
+		map textures/racepack9/dangus.tga
+	}
+}
+
+textures/racepack9/debeselis1
+{
+	surfaceparm nolightmap
+	{
+		map textures/racepack9/debeselis1.tga
+	}
+}
+
+textures/racepack9/debeselis2
+{
+	surfaceparm nolightmap
+	{
+		map textures/racepack9/debeselis2.tga
+	}
+}
+
+textures/racepack9/debeselis3
+{
+	surfaceparm nolightmap
+	{
+		map textures/racepack9/debeselis3.tga
+	}
+}
+
+textures/racepack9/pilis1
+{
+	surfaceparm nolightmap
+	{
+		map textures/racepack9/pilis1.tga
+	}
+}
+
+textures/racepack9/veliavaaa
+{
+	surfaceparm nolightmap
+	{
+		map textures/racepack9/veliavaaa.tga
+	}
+}
+
+textures/racepack9/zkalniukas1
+{
+	surfaceparm nolightmap
+	{
+		map textures/racepack9/zkalniukas1.tga
+	}
+}
+
+textures/racepack9/zkalniukas3
+{
+	surfaceparm nolightmap
+	{
+		map textures/racepack9/zkalniukas3.tga
+	}
+}
+
+textures/racepack9/zkrumas1
+{
+	surfaceparm nolightmap
+	{
+		map textures/racepack9/zkrumas1.tga
+	}
+}
+
+textures/racepack9/zkrumas2
+{
+	surfaceparm nolightmap
+	{
+		map textures/racepack9/zkrumas2.tga
+	}
+}
+
+textures/racepack9/zkrumas3
+{
+	surfaceparm nolightmap
+	{
+		map textures/racepack9/zkrumas3.tga
+	}
+}
+
+textures/racepack9/zsulinys2
+{
+	surfaceparm nolightmap
+	{
+		map textures/racepack9/zsulinys2.tga
+	}
+}
+
+textures/racepack9/zsulinys3
+{
+	surfaceparm nolightmap
+	{
+		map textures/racepack9/zsulinys3.tga
+	}
+}
+
+
+textures/racepack9/zsulinys4
+{
+	surfaceparm nolightmap
+	{
+		map textures/racepack9/zsulinys4.tga
+	}
+}
+
+
+textures/racepack9/zsulinys44
+{
+	surfaceparm nolightmap
+	{
+		map textures/racepack9/zsulinys44.tga
+	}
+}
+
+textures/racepack9/metal_plate_floor
+{
+	{
+		map $lightmap
+		rgbGen identityLighting
+	}
+	{
+		map textures/racepack9/metal_plate_floor
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identityLighting
+		tcMod scale 2 2
+	}
+}

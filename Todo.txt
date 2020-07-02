@@ -5,8 +5,6 @@ Fix weird nonsolid at spawn room
 fix fog in snowboard room
 warps
 
-textures/gothic_wall/streetbricks14
 
 Lighting:
 qw-slide7 start is a lil dark still w/e ?
-mario should be nolightmap
