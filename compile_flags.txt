@@ -1,0 +1,4 @@
+bsp_Q3Map2: (final) BSP -meta, -vis, -light -lomem -fast -filter -super 2 -bounce 8
+
+
+! "C:/Program Files/GtkRadiant-1.6.6-20180422/q3map2" -v # -game ja -fs_basepath "C:/Games/JKA/GameData/" -meta $ && ! "C:/Program Files/GtkRadiant-1.6.6-20180422/q3map2" # -game ja -fs_basepath "C:/Games/JKA/GameData/" -vis -saveprt $ && ! "C:/Program Files/GtkRadiant-1.6.6-20180422/q3map2" -v # -game ja -fs_basepath "C:/Games/JKA/GameData/" -light -lomem -fast -super 2 -filter -bounce 8 $
